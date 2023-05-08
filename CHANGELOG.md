@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/byteshard/debug/compare/v1.0.0...v1.0.1) (2023-05-08)
+
+
+### Bug Fixes
+
+* add .gitattributes file to ignore development files in package ([00b35d6](https://github.com/byteshard/debug/commit/00b35d67cf74967a8633c4c0c3ebf2bea1d64bac))
+
 # 1.0.0 (2023-05-08)
 
 
