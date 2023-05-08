@@ -1,0 +1,23 @@
+{
+  "name": "byteshard/debug",
+  "description": "Debug helper for the byteShard framework",
+  "license": "MPL-2.0",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Lars Hennig"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "byteShard\\": "src/byteShard"
+    }
+  },
+  "require": {
+    "php": "^8.1",
+    "psr/log": "^3.0"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.10"
+  }
+}
