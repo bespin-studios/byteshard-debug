@@ -242,7 +242,7 @@ class Debug
         }
     }
 
-    private function printToFile(string $string, bool $date = true, string $fileName = null): void
+    private function printToFile(string $string, bool $date = true, ?string $fileName = null): void
     {
         if ($fileName === null) {
             $filename = $this->logDir.DIRECTORY_SEPARATOR.(($date !== false) ? date('YmdHis').'_' : '').$this->debugFilename;
